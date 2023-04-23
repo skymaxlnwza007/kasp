@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+
+    <style>
+        .colored-box {
+            display: inline-block;
+            background-color: lightblue;
+            padding: 10px;
+            color: rgb(211, 211, 214);
+            font-weight: bold;
+        }
+
+        .mom {
+            right: 100%;
+
+
+
+        }
+
+
+        html {
+            background: url(1769573.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            font-family: 'Mali', cursive;
+            color: aliceblue;
+
+        }
+
+
+
+        .sidebar {
+            background-color: #686464;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-image: url(magic\ forest\ at\ 1.png);
+            background-color: #747474;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            color: #7dd4fc;
+
+
+        }
+
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        .openbtn {
+            background-color: Transparent;
+            font-size: 20px;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            border: none;
+        }
+
+        .openbtn:hover {
+            background-color: #444;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 15px;
+            }
+
+            .sidebar a {
+                font-size: 18px;
+            }
+        }
+
+      
+
+        
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    <title>ITCAMP19</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <span class="colored-box" style="background-color: rgba(46, 45, 45, 0.575);"><a href="#section1">Story of
+                    Dragon
+                </a></span>
+
+            <span class="colored-box" style="background-color: rgba(61, 61, 60, 0.534);"><a href="#section2">Story of
+                    Phoenix
+                </a></span>
+
+        </div>
+        <span class="colored-box" style="background-color: rgba(0, 0, 0, 0.664);">
+            <div id="main">
+                <button class="openbtn" onclick="toggleNav()" style="color: rgb(233, 0, 0)dfd;">☰</button>
+                </p>
+                <br><br><br><br><br>
+                <center>
+                    <h1> <span class="colored-box"
+                            style="background-color: rgba(8, 8, 8, 0.973);">สัตว์วิเศษเหนือจินตนาการ</span>
+                    </h1>
+                    <center>
+
+
+                        <br><br><br><br>
+                        <br> <br> <br> <br> <br> <br> <br> <br> <br>    
+                        
+                        
+                       
+
+
+                        <div class="main" id="section1">
+
+
+                            <center> <span class="colored-box" style="background-color: rgba(0, 0, 0, 0.788);"> <span
+                                        class="colored-box" style="background-color: rgba(112, 110, 110, 0.384);">
+                                        <font color="ruby">
+                                            <h1>Story of Dragon</h1>
+                                        </font>
+                                    </span></span>
+
+
+
+
+                                <br> <span class="colored-box" style="background-color: rgba(0, 0, 0, 0.664);"> <img
+                                        src="https://upload.wikimedia.org/wikipedia/th/7/77/Chinese_Dragon.jpg"
+                                        width="600" alt=""></span>
+
+                                <span class="colored-box" style="background-color: rgba(0, 0, 0, 0.781);"><span
+                                        class="colored-box" style="background-color: rgba(40, 41, 41, 0.74);">
+                                        <h3>ตำนานมังกรจีนโบราณมีอายุยาวนานกว่า 4,000 ปี
+                                            ซึ่งลักษณะรูปร่างของมังกรจีนนั้น<br>
+                                            สุดแล้วแต่นักวาดรูปจะจินตนาการเสริมแต่งออกมา
+                                            การขายจินตนาการของนักวาดรูปจะเขียนมังกรออกมาโดยยึดลักษณะรูปแบบที่เล่าต่อ<br>
+                                            ๆกันมาคือ มังกรจีนจะมีลักษณะลำตัวที่ยาวเหมือนงู
+                                            มีเกล็ดสีเขียว
+                                            นัยน์ตาสีแดง มีหนวดและเขาอย่างละคู่ มีขา 4 ขาและกงเล็บที่แข็งแรง<br>
+                                            มังกรจีนโบราณถูกยกย่องว่าเป็นสัตว์เทพเจ้าซึ่งชาวจีนเคารพนับถือ
+                                            เป็นสัตว์พาหนะของเทพเจ้าในลัทธิเต๋า
+                                            ทำหน้าที่ปกป้องคุ้มครองปราสาทราชวัง<br>ของเทพเจ้าบนสวรรค์
+                                            มังกรจีนในตำนานนั้น สามารถที่จะทำตัวเองให้มีขนาดใหญ่เท่ากับจักรวาล
+                                            หรือมีขนาดเล็กเท่ากับหนอนไหมได้ แต่เวลา <br>สู้กับหงอคง
+                                            ก็ควรจะแปลงร่างให้เล็กแล้วเข้าไปกัดลำไส้หงอคง
+                                            หรือแปลงร่างเพื่อเขมือบหงอคงให้เป็นวุ้น และในบรรดาสัตว์ศักดิ์สิทธิ์ทั้ง<br>
+                                            4 ของจีน
+                                            คือ กิเลน หงส์ เต่า และมังกร มังกรจีนถือเป็นสัตว์แห่งเทพเจ้า
+                                            ได้รับความนับถือมากที่สุด
+                                            มังกรจีนมีลักษณะนิสัยที่เมตตากรุณา เป็นมิตร ทะเยอทะยาน<br> และมองโลกในแง่ดี
+                                            นอกจากนี้ยังมีความฉลาด มีปัญญามาก มีความเด็ดขาด
+                                            และมีพลัง มังกรจีนจึงเป็นที่ปรึกษาของผู้นำในด้านต่าง ๆ
+                                            <br>แต่มังกรจีนยังมีทิฐิในตัว เมื่อผู้นำไม่ยอมทำตามคำแนะนำของมังกรจีน
+                                            จะถือตัวว่าถูกหมิ่นประมาท
+                                            มังกรจีนจะทำให้ฝนหยุดตก หรือเป่าเมฆดำออกมาซึ่งจะนำพาพายุ <br>และน้ำท่วมมาให้
+                                            ถ้าไปเป่าเมฆสีทองของหงอคงก็จะทำให้เมฆเปลื่ยนเป็นสีดำ และกลายเป็นฝน
+                                            หงอคงก็จะเหินหาวไม่ได้</h3>
+                                    </span>
+                            </center>
+        </span>
+        <br><br><br><br><br><br><br><br><br>
+
+
+    </div>
+    <div class="main" id="section2">
+
+        <center> <span class="colored-box" style="background-color: rgba(0, 0, 0, 0.877);"><span class="colored-box"
+                    style="background-color: rgba(238, 230, 230, 0.11);">
+                    <font color="orange">
+                        <h1>Story of Phoenix</h1>
+                    </font>
+                </span><BR></span>
+            <BR>
+            <span class="colored-box" style="background-color: rgb(0, 0, 0);"><img
+                    src="https://image.sistacafe.com/w800/images/uploads/content_image/image/83460/1453275312-Bird-phoenix-flight-art-drawing-wallpaper-2560x1600.jpg"></span>
+
+
+            <br><br><br> <span class="colored-box" style="background-color: rgba(0, 0, 0, 0.678);"><span
+                    class="colored-box" style="background-color: rgba(54, 53, 53, 0.5);">
+                    <h3>นกฟีนิกซ์ เพราะเป็นสิ่งที่ปรากฏเคียงคู่กัน ซึ่งนกชนิดนี้ จัดว่า เป็นนกที่ศักดิ์สิทธิ์ <br>
+                        เปรียบดั่งเป็นแรร์ไอเทมที่ปรากฏอยู่ในตำนานของหลายๆ ชนชาติ ในลักษณะที่คล้าย
+                        <br>และแตกต่างกันในบางรายละเอียด
+
+                        ในความเชื่อของอียิปต์โบราณ และอารยธรรมกรีก<br> ยกย่องให้นกชนิดนี้อยู่ในฐานะของสัตว์ศักดิ์สิทธิ์
+                        ซึ่งคู่ควรแก่การบูชา และเกี่ยวข้องกับเทพแห่งไฟ<br>
+                        เพราะขนของมันเป็นประกายสีเหลืองทองคล้ายกับเปลวไฟ บ้างก็ว่าปกคลุมด้วยเปลวไฟทั้งตัว
+
+                        ส่วนทางด้านเอเชีย ก็มีปรากฏในด้านของตำนาน<br> นิทานปรัมปรา
+                        รวมไปถึงทางด้านประติมากรรมซึ่งเชื่อว่า นกฟีนิกซ์ หรือหงส์ไฟ เป็นตัวแทนของความโชคดี
+                        ยามที่แผ่นดิน<br> หรือบ้านเมืองสงบสุข ก็จะเห็นนกชนิดนี้บินผ่าน
+
+                        นอกจากนี้ในหลายๆ วัฒนธรรม ยังกล่าวว่า นกฟีนิกซ์เป็นสัญลักษณ์แห่งความเป็นอมตะ<br> มีชีวิตยั่งยืน
+                        เป็นนิรันดร์ เพราะสามารถฟื้นคืนชีพได้ด้วยตัวเอง เมื่อร่างกายสิ้นอายุขัย ( 500 ปี หรือ 1,461 ปี )
+                        ตัวจะลุกเป็นไฟ <br>จากนั้นก็จะฟื้นจากกองขี้เถ้ามาเป็นนกตัวใหม่ //น่าอัศจรรย์มั้ยล่ะ ?!!
+                        </h2>
+                </span>
+        </center></span>
+
+        <br><br><br><br><br><br><br><br><br><br>  <span class="colored-box" style="background-color: rgba(0, 0, 0, 0.877);"> <h1 onclick="this.innerHTML='ขอบคุณที่อ่าน'">Thank for reading</h1> </span>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+
+
+    <script> //sidebar open
+        var sidebarOpen = false;
+
+        function toggleNav() {
+            if (sidebarOpen) {
+                closeNav();
+                sidebarOpen = false;
+            } else {
+                openNav();
+                sidebarOpen = true;
+            }
+        }
+
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+
+</body>
+
+
+</html
